@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 360px;
+  height: 200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: flex;
+  max-width: 1440px;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 156px;
+  background-color: gray;
+}
+
+.gallery li {
+  transition: transform 200ms ease-in;
+}
+
+.gallery li:hover {
+  transform: scale(1.03);
+}
